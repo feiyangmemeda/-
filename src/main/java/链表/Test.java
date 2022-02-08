@@ -4,12 +4,7 @@ public class Test {
 
 
     public static void main(String[] args) {
-        long result = 0;
-        long start = System.currentTimeMillis();
-        while (System.currentTimeMillis() - start <2000){
-            result++;
-        }
-        System.out.println(result);
+
     }
 
     static class Node {
